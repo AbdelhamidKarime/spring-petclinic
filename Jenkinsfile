@@ -51,10 +51,6 @@ pipeline {
                 } 
             } 
         } 
-        stage ('Couverture'){ 
-            steps { 
-                step ([$class: 'JacocoPublisher']) 
-            } 
-        } 
+       
     }
 }
